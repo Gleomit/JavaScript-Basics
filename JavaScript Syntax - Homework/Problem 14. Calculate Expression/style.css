@@ -1,0 +1,25 @@
+input,
+p {
+    width: 250px;
+    background-color: #234465;
+    color: #F78C3E;
+}
+main {
+    width: 280px;
+}
+p {
+    padding: 8px 10px 8px;
+    height: 15px;
+    width: 260px;
+}
+input {
+    padding: 5px 15px 5px;
+    border: none;
+}
+button {
+    display: block;
+    border: 1px inset #252525;
+    padding: 8px 12px;
+    margin: 20px auto;
+    background-color: transparent;
+}

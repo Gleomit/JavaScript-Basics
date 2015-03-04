@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+.cell {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cell:nth-of-type(2) {
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+}
+main {
+    margin: 0 auto;
+    clear: both;
+}
+section {
+    float: left;
+}
+section:nth-of-type(2) {
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+}
